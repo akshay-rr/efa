@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .App-logo {
@@ -35,4 +37,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#block-monitor, #message-signer {
+  text-align: left;
+  height: 100%;
+  margin-top: 8px;
+}
+
+#event-monitor {
+  text-align: left;
+  margin-top: 16px;
+}
+
+.header {
+  margin-top: 16px;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.card-title {
+  font-weight: 600;
 }
